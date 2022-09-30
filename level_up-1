@@ -1,4 +1,4 @@
-a, b = int(input()), int(input())
+a, b = map(int, input().split("\n"))
 if a<b:
     print(a)
 elif a==b:
